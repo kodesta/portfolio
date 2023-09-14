@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(83, 83, 83);
+}
+.main{
+    margin: auto;
+    width: 55%;
+    height: 100vh;
+    background-color: rgb(57, 143, 218);
+    
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right:50px ;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(179, 99, 168);
+    padding: 30px;
+}
+.footme{
+    
+        width: 100%;
+        height: 350px;
+        background-color: rgb(90, 199, 109);
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        padding-top: 135px;
+        line-height: 30px;
+    
+}
+.word-one{
+    display:flex;
+    flex-direction: column;
+   gap: 5px;
+}
+.word-two{
+    display:flex;
+    flex-direction: column;
+   gap: 5px;
+}
+.word-three{
+    display:flex;
+    flex-direction: column;
+   gap: 5px;
+}
+
+.big{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.frame{
+    width:60%;  height: 520px;
+    border: 35px solid black;
+    position: fixed;
+    z-index: 2;
+    border-radius: 25px;
+    bottom:15px;
+    transform: translateX(-40px);
+   
+   
+    
+
+}

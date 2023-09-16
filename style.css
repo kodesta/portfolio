@@ -44,8 +44,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 .pool{
 
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+   display:flex;
+    justify-content: center;
+    align-items:center;
    gap: 30px;
     
     z-index: 1;
